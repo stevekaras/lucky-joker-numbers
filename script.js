@@ -1,7 +1,8 @@
 'use strict';
 const luckyBtn = document.querySelector('#numbers-btn');
 const JokerBtn = document.querySelector('#joker-btn');
-let itnerval = 50;
+
+let itnerval = 50000;
 
 let numbers = [];
 
