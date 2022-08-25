@@ -20,7 +20,7 @@ const jokerGenerator = function () {
   let duration = Math.floor(itnerval / endValue);
   let counter = setInterval(function () {
     startValue += 1;
-    document.querySelector('#joker').value = startValue;
+    document.querySelector('#joker').textContent = startValue;
     if (startValue === endValue) {
       clearInterval(counter);
     }
@@ -34,7 +34,7 @@ const showLuckyNymbers = function () {
     let duration = Math.floor(itnerval / endValue);
     let counter = setInterval(function () {
       startValue += 1;
-      document.getElementById(`num${num + 1}`).value = startValue;
+      document.getElementById(`num${num + 1}`).textContent = startValue;
       if (startValue === endValue) {
         clearInterval(counter);
       }

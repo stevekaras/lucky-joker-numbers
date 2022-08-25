@@ -27,6 +27,9 @@ body {
   margin: 1.1rem;
   background: #1a222633;
 }
+.boxes {
+  border-radius: 20px;
+}
 .lucky-num {
   display: flex;
 }
@@ -35,25 +38,6 @@ body {
   margin-top: 30px;
 }
 /* styling the two inputs "username" and "password" */
-input[type='text'],
-input[type='password'] {
-  background: #678899;
-  border: 0.06rem solid #24343c;
-  border-radius: 5rem;
-  text-align: center;
-  letter-spacing: 0.2rem;
-  color: white;
-}
-/* styling the two inputs "username" and "password" colors when clickink on it*/
-input[type='text']:focus,
-input[type='password']:focus {
-  background: rgb(188, 29, 29);
-  color: white;
-}
-input[type='password']:focus::placeholder,
-input[type='text']:focus::placeholder {
-  opacity: 0;
-}
 
 /* styling the checkbox backround color*/
 .form-check-input:checked {
