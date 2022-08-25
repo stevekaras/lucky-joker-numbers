@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('/img/1.jpg');
+  background-size: contain;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+}
+.card-body {
+  /* background-color: none; */
+  background-image: url('/img/4.webp');
+  background-size: contain;
+}
+.login-form {
+  width: 50rem;
+  height: 30rem;
+  margin: 1.1rem;
+  background: #1a222633;
+}
+.lucky-num {
+  display: flex;
+}
+
+.lucky-joker {
+  margin-top: 30px;
+}
+/* styling the two inputs "username" and "password" */
+input[type='text'],
+input[type='password'] {
+  background: #678899;
+  border: 0.06rem solid #24343c;
+  border-radius: 5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+/* styling the two inputs "username" and "password" colors when clickink on it*/
+input[type='text']:focus,
+input[type='password']:focus {
+  background: rgb(188, 29, 29);
+  color: white;
+}
+input[type='password']:focus::placeholder,
+input[type='text']:focus::placeholder {
+  opacity: 0;
+}
+
+/* styling the checkbox backround color*/
+.form-check-input:checked {
+  background: black;
+}
+
+.btn {
+  width: 21.25rem;
+  border-radius: 3.1rem;
+  background: #24343c;
+  border: 0.07rem solid #24343c;
+  color: white;
+  height: 3rem;
+  letter-spacing: 0.2rem;
+}
+.btn:hover {
+  background: #24343c;
+  border: 0.07rem solid rgba(255, 255, 255, 0.486);
+  transform: translate(-3px);
+  box-shadow: 0 5px 10px #699db8;
+}
+.btn:active {
+  background: #24343c;
+  border: 0.07rem solid rgba(255, 255, 255, 0.486);
+}
+
+/* styling the checkbox label "Remember Me"*/
+.form-check-label {
+  letter-spacing: 0.2rem;
+  background-color: #24343c;
+  border-radius: 3rem;
+  color: #777;
+  background: #24343c;
+  border: 0.06rem solid #24343c;
+  font-size: 0.9rem;
+}
