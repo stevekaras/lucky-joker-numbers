@@ -14,7 +14,7 @@ const numberGenerator = function () {
   }
 };
 const jokerGenerator = function () {
-  const joker = Math.floor(Math.random() * 25) + 1;
+  const joker = Math.floor(Math.random() * 20) + 1;
   let startValue = 0;
   let endValue = parseInt(joker);
   let duration = Math.floor(itnerval / endValue);
