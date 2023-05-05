@@ -26,7 +26,7 @@ const jokerGenerator = function () {
     }
   });
 };
-
+//////test
 const showLuckyNymbers = function () {
   numbers.forEach((el, num) => {
     let startValue = 0;
